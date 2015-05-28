@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RoomBooking.master.cs" Inherits="LoginAppmain.RoomBooking" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Room Booking</title>
+    <link href="AllFormsSheet.css" rel="stylesheet" media="print" />
+    <link href="AllFormsSheet.css" rel="stylesheet" />
+    <script src="AllFormsJs.js"></script>
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/redmond/jquery-ui.css" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="NormaLayout" runat="server">
+
+        <div class="header">
+            <div class="mainhead">
+                <table class="headertable">
+                    <tr>
+                        <td class="headertd">
+                            <h3 class="welcome">Welcome:
+                                <asp:Label ID="lbl_fullname" runat="server" Text="Fullname goes here"></asp:Label></h3>
+                            <!-- Full name of user Goes here -->
+                        </td>
+                        <td class="headertd">
+                            <asp:LinkButton ID="Logout" runat="server" OnClick="btn_logout_Click" Text="Logout">Logout</asp:LinkButton>
+
+                        </td>
+                    </tr>
+                </table>
+
+                <a href="HomePage.aspx">
+                    <asp:Image ID="Image2" runat="server" Height="53px" ImageUrl="~/logo.png" />
+                </a>
+                <hr />
+            </div>
+
+            <div class="container">
+            </div>
+            <div class="logo">
+                <h1 class="headercolour">ROOM BOOKING </h1>
+            </div>
+            <span class="navigate-btn"></span>
+            <div class="navigate">
+                
+                <ul>
+                    <li><a href="Calendar.aspx">Calendar</a> </li>
+                    <li id="stats"><a href="Statistics.aspx">Stats</a> </li>
+                    <li id="Modify Rooms"><a href="#">Rooms & PC</a>
+                                                <ul>
+                            <li><a href="RoomsResources.aspx">Modify Room</a> </li>
+                            <li><a href="ModifyPC.aspx">Modify PC's</a> </li>
+                        </ul>
+
+                    </li>
+                    <li id="Users"><a href="#">Manage Users</a>
+                        <ul>
+                            <li><a href="SearchUser.aspx">Search Users</a> </li>
+                            <li><a href="ModifyUser.aspx">Modify Users</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">My Bookings</a>
+                        <ul>
+                            <li><a href="Modify Booking.aspx">Modify Booking</a> </li>
+                            <li><a href="AddBooking.aspx">Make A Booking</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="My Account.aspx">My Account</a> </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="content">
+
+        </div>
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+
+
+</html>

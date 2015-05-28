@@ -1,0 +1,792 @@
+﻿body {
+    width: 100%;
+    margin: 0;
+    display: block;
+    background-repeat:no-repeat;
+    background: #ADADAD url('purple-shade-abstract-hd-wallpaper-1920x1200-18254.png');
+}
+
+Form {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content {
+    /*background-color: rgba(21, 45, 187, 0.48);*/
+    padding-top: 11%;
+}
+
+.homepagecontent {
+    background-color: rgba(21, 45, 187, 0.48);
+    margin-top: 10% auto;
+}
+
+.Pagename {
+    position: inherit;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #5e427c;
+    background-color: #e8e8e8;
+    font-family: Tahoma;
+    font-size: 35px;
+    letter-spacing: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 4px #000000;
+    -moz-box-shadow: 0px 2px 4px #000000;
+    box-shadow: 0px 2px 4px #000000;
+}
+
+.header {
+    background: #6396bc;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    -webkit-box-shadow: 0px 2px 4px #000000;
+    -moz-box-shadow: 0px 2px 4px #000000;
+    box-shadow: 0px 2px 4px #000000;
+    left: 0px;
+}
+
+.logo {
+    padding-left: 53px;
+    float: left;
+    font-family: Tahoma;
+    font-size: medium;
+    letter-spacing: 8px;
+    text-decoration-color: white;
+    text-decoration: none !important;
+}
+
+
+
+#Image1 {
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    background: #5e427c;
+    -webkit-box-shadow: 0px 2px 4px #000000;
+    -moz-box-shadow: 0px 2px 4px #000000;
+    box-shadow: 0px 2px 4px #000000;
+}
+
+#Image2 {
+    padding-left: 3px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    background: #5e427c;
+    -webkit-box-shadow: 0px 2px 4px #000000;
+    -moz-box-shadow: 0px 2px 4px #000000;
+    box-shadow: 0px 2px 4px #000000;
+}
+
+    #Image2:hover {
+      -webkit-filter: blur(5px);
+         background: none repeat scroll 0% 0% #FFF;
+         color: #702FA8;
+    }
+
+    #Image2::after {
+pointer-events: none;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+content: "";
+box-sizing: content-box;
+    }
+
+.navigate {
+    float: right;
+    margin-left: -29px;
+}
+
+
+
+.mainhead {
+    background: #5e427c;
+    -webkit-box-shadow: 0px 2px 4px #000000;
+    -moz-box-shadow: 0px 2px 4px #000000;
+    box-shadow: 0px 2px 4px #000000;
+}
+
+.welcome {
+    float: right;
+    color: whitesmoke;
+    padding-right: 40px;
+    height: 20px;
+    width: 254px;
+}
+
+.headercolour {
+    color: #E8E8E8;
+}
+
+.navigate ul li:hover ul {
+    display: block;
+}
+
+.navigate ul ul li {
+    display: block;
+  
+}
+
+.navigate ul ul {
+    display: none;
+    position: absolute;
+    border-top: 3px;
+    margin-left: -19px;
+    padding-left: inherit;
+    border: 1px solid #222;
+    background-color: rgba(0, 83, 120, 0.85);
+ 
+}
+
+    .navigate ul ul li a:visited {
+        color: #ccc;
+    }
+
+
+
+    .navigate ul ul li a:hover {
+        color: #b90088;
+        text-underline-position: below;
+    }
+
+nav {
+    margin: 50px;
+}
+
+ul {
+    overflow: auto;
+    list-style-type: none;
+    margin-right: 26px;
+    z-index: 3;
+}
+
+li {
+    height: 25px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 13px;
+    border-right: 2px solid rgba(9, 109, 194, 0.59);
+    padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 10px;
+    color: white;
+}
+
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: ghostwhite;
+        font: 20px/1 Helvetica, Verdana, sans-serif;
+        text-transform: uppercase;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+        li a:hover {
+            color: #841fdd;
+        }
+
+    li.active a {
+        font-weight: bold;
+        color: #333;
+    }
+
+.headertable {
+    float: right;
+    padding-right: 10px;
+    height: 10px;
+}
+
+.headertd {
+    border-right: 1px solid #aaa;
+    padding-left: 10px;
+}
+
+    .headertd:last-child {
+        border-right: none;
+    }
+
+#Logout {
+    color: blanchedalmond;
+    font: 20px/1 Helvetica, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+    #Logout:hover {
+        color: red;
+    }
+
+.Para {
+    color: black;
+}
+
+
+
+.AccDiv1 {
+    border-color: red;
+    border: solid;
+    padding: 10px 10px 10px 10px;
+    margin-top: -11%;
+}
+
+.AccDiv2 {
+    border-color: red;
+    border: solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #E4F2FF;
+    margin-top: -11%;
+}
+
+.SearchAccDiv2 {
+    border-color: red;
+    border: solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #E4F2FF;
+    margin-top: 0%;
+}
+
+.detailsTable {
+    width: 934px;
+    float: left;
+    clear: both;
+}
+
+.TextBox {
+    width: 220px;
+    height: 30px;
+    border-color: purple;
+    border-radius: 4px;
+}
+
+.Button {
+    width: 223px;
+    height: 30px;
+    border-color: #31d3ba;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .Button:hover {
+        border-color: darkblue;
+    }
+
+/*Monthly View/ HomePage*/
+
+#fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+#light {
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+height: inherit;
+width: 371px;
+margin-left: -10%;
+margin-top: 3%;
+border: 2px solid rgba(132, 23, 218, 0.44);
+background: #FDD;
+z-index: 1002;
+overflow: visible;
+padding-bottom: inherit;
+}
+
+#btnEdit {
+width: 135px;
+height: 25px;
+border-color: #b90088;
+border-radius: 5px;
+cursor: pointer;
+margin: 0px auto;
+
+}
+
+#btnMakeBooking {
+width: 135px;
+height: 25px;
+border-color: #b90088;
+border-radius: 5px;
+cursor: pointer;
+margin: 0px auto;
+}
+
+#form1 {
+    text-align: center;
+}
+
+.calendarDiv {
+    border-color: red;
+    border: solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #E4F2FF;
+    height: 582px;
+
+}
+
+#GridView1 {
+    width: 200px;
+    border-collapse: collapse;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 18%;
+}
+
+#Calendar1 {
+    border-width: 2px;
+    border-style: Inset;
+    font-family: Arial;
+    font-weight: bold;
+    height: 500px;
+    border-collapse: collapse;
+    float: right;
+    margin-top: 5%;
+
+}
+
+.homePagecalendarDiv {
+    border-color: red;
+    border: solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #E4F2FF;
+    height: 910px;
+}
+
+.GridView {
+    float: left;
+}
+
+.putInMiddle {
+    margin: 0 auto;
+    width: 110%;
+    padding-top: 2%;
+}
+
+.putInMiddlebuttons {
+    margin: 0 auto;
+    top: 2%;
+    width: 50%;
+}
+
+.putInMiddlediv {
+    margin: 0 auto;
+    top: 2%;
+    width: 89%;
+}
+
+.putInMiddlebuttons, button {
+    padding-right: 5px;
+}
+
+.imRelative {
+    position: inherit;
+}
+
+.ButtonToggle {
+    width: 250px;
+    height: 35px;
+    border-color: #b90088;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .ButtonToggle:hover {
+        border-color: darkblue;
+    }
+
+/* Search Page for Admin*/
+
+.searchButton {
+    width: 200px;
+    height: 36px;
+    border-radius: 4px;
+    border-color: brown;
+    color: #589cd7;
+    cursor: pointer;
+    font-size: large;
+}
+
+    .searchButton:hover {
+        border-color: green;
+    }
+
+    .searchButton::selection {
+        border-color: black;
+    }
+
+.searchText {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    border-color: cyan;
+    font-size: large;
+    border-color: brown;
+}
+
+    .searchText::selection {
+        border-color: black;
+    }
+
+.searchDrop {
+    width: 161px;
+    height: 34px;
+    border-radius: 4px;
+    border-color: cyan;
+    text-align: center;
+    font-size: large;
+    border-color: brown;
+}
+
+    .searchDrop::selection {
+        border-color: black;
+    }
+
+.searchDiv {
+    margin: 0 auto;
+    width: 60%;
+    padding: 5px;
+    margin-top: 0%;
+}
+
+/*  ARB - Manage Bookings*/
+
+#fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+#PopupArea {
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+width: 378px;
+height: 100px;
+margin-left: -150px;
+margin-top: -100px;
+background: #A616B9;
+z-index: 1002;
+overflow: visible;
+border-style: ridge;
+}
+
+
+#okay {
+border-radius: 3px;
+border-color: #8B0B8B;
+cursor: pointer;
+width: 131px;
+height: 24px;
+margin: 30px 131px;
+background-color: #F0FFFF;
+}
+
+#yes {
+    margin-top: 7%;
+    margin-left: 25%;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#no {
+    top: 50%;
+    left: 100%;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+#confirmation {
+    font: message-box;
+    color: rgba(245, 245, 245, 1);
+    white-space: pre;
+    font-size: 13px;
+    align-content: center;
+    margin: 0px 0px 0px 29px;
+}
+
+
+
+.GridviewTable {
+    color: #5e427c;
+    background-color: #e8e8e8;
+    font-family: Tahoma;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*ViewTheUser*/
+.userInfo1 {
+    width: 43%;
+    float: left;
+    margin-left: 5%;
+}
+
+    .userInfo1 td {
+        padding-left: 7px;
+    }
+
+.userInfo2 td {
+    padding-left: 7px;
+}
+
+.auto-style2 {
+    width: 708px;
+}
+
+.userInfo2 {
+    margin-left: 9px;
+    width: 43%;
+    float: left;
+    height: 117px;
+}
+
+.AccEditRooms {
+    border-color: red;
+    border: solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #E4F2FF;
+    position: relative;
+    height: 377px;
+    margin-top: -11%;
+}
+
+.editbutton {
+    border-radius: 4px;
+    border-color: purple;
+    background-color: #adf5e5;
+    cursor: pointer;
+    width: 167px;
+    height: 36px;
+    }
+
+.addbutton {
+    border-radius: 4px;
+    border-color: purple;
+    background-color: #adf5e5;
+    cursor: pointer;
+    width: 167px;
+    height: 36px;
+}
+
+.deletebutton {
+    border-radius: 4px;
+    border-color: purple;
+    background-color: #adf5e5;
+    cursor: pointer;
+    width: 131px;
+    height: 24px;
+}
+
+    .deletebutton:hover {
+        background-color: red;
+    }
+
+.addbutton:hover {
+    background-color: aliceblue;
+}
+
+.editbutton:hover {
+    background-color: aliceblue;
+}
+
+
+.textboxEditRoom {
+    border-radius: 4px;
+    border-color: blanchedalmond;
+    height: 26px;
+    text-align: left;
+}
+
+/*Modify User*/
+
+
+
+
+#searchDataGrid {
+    margin: 0px auto;
+        width: 90%;
+}
+
+#searchDataGrid input
+{
+    width: 95%;
+}
+
+.createUserTextbox {
+    width: 184px;
+    height: 20px;
+    border-color: purple;
+    border-radius: 4px;
+}
+
+.createUser {
+    border: 3px solid #1148cc;
+}
+
+
+    .createUser tr {
+        border: 3px solid #1148cc;
+    }
+
+
+/*ADD BOOKING/ CREATE BOOKING*/
+
+#datepicker {
+    z-index: 1;
+    left: 267px;
+    top: 22px;
+}
+
+.Label {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.Text {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.PanelDiv {
+background-color: initial;
+width: 70%;
+margin:0px auto;
+}
+
+.AddBookingTable {
+ width: 93%;
+}
+
+.AddBookingTable td {
+padding-bottom:5px;
+}
+
+/*Edit Rooms*/
+#viewRoomsGridView
+{
+margin: 0 auto;
+-webkit-box-shadow: 0px 2px 4px #000000;
+-moz-box-shadow: 0px 2px 4px #000000;
+box-shadow: 0px 2px 4px #000000;
+}
+
+.showBlackWhiteDiv {
+    margin-top: 5%;
+    position:inherit;
+    top: 0px;
+    left: 0px;
+    width: 932px;
+}
+
+.editRoomDiv {
+position: relative;
+}
+
+.AccDivRoomsR {
+border-color: red;
+border: solid;
+padding: 10px 10px 10px 10px;
+background-color: #E4F2FF;
+margin-top: -11%;
+height: 42%;
+}
+
+.editRoomTable {
+border-style: solid;
+border-color: blanchedalmond;
+    border-color: inherit;
+    border-width: medium;
+    width: 100%;
+    border-radius: 11px;
+    border-spacing: 8px 2px;
+    -webkit-box-shadow: 0px 2px 4px #000000;
+    -moz-box-shadow: 0px 2px 4px #000000;
+    box-shadow: 0px 2px 4px #000000;
+    height: 383px;
+}
+
+
+.font {
+font-family: 'Franklin Gothic';
+font-size:xx-large;
+margin: 0px auto;
+    text-align: center;
+}
+
+@media print {
+
+    #controls {
+        display: none;
+    }
+
+    .header {
+    display: none;
+    }
+
+    .Pagename {
+    display: none;
+    }
+
+    #FindChart {
+        display: none;
+    }
+
+}
+
+#StatsGraphs {
+height: 300px;
+width: 800px;
+border-width: 0px;
+margin: 0px 7%;
+border: blanchedalmond 11px;
+}
+
+    #FindChart {
+        float:right;
+    }
